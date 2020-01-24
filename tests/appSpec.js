@@ -47,7 +47,7 @@ describe("Creating a player", function () {
 
       expect(found).toBeGreaterThan(-1);
       expect(player.image).toBeInstanceOf(String);
-      expect(player.image).toMatch(/images\/super-[0-9]+\.png/);
+      expect(player.image.substring(3,)).toMatch(/images\/super-[0-9]+\.png/);
     });
 
     it("should create player who is either Hero or Villain \
@@ -139,7 +139,7 @@ describe("Creating a player", function () {
       let img = view.children[0];
       let img_src = img.getAttribute('src');
 
-      expect(img_src).toBe('images/super-1.png');
+      expect(img_src.substring(3,)).toBe('images/super-1.png');
     });
 
     it("should append name using a div element to \
@@ -211,13 +211,6 @@ describe("Setting up Super War", function () {
       expect(fragmentHTML.children[0].innerHTML).toBe(expectedFragment.innerHTML);
     });
 
-    it("should return a filtered array for\
-     the given player type",function(){
-      let superWar = new Superwar(TEST_PLAYERS);
-      let expectedArray = superWar.filterPlayers('hero');
-
-      expect(expectedArray[0].type).toBe('hero');
-     })
   });
 
 
