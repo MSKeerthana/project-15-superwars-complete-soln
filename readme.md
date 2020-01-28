@@ -56,4 +56,4 @@ Hurray we're just one step away from the completion ! Add the logic of `totalSco
 
 ## Expected Output
 
-![Superwars](doc/superwar-css.png)
+![Superwars](doc/superwars-complete.png)
