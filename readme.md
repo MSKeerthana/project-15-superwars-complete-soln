@@ -1,6 +1,6 @@
 # ProGrad
 
-## LAB | ProGrad Superwars
+## Superwars
 
 Dustin and Lucus are best friends, they spend their weekends watching superhero series and playing superhero games. One Friday in school Mr.Hooper who is their computer science faculty member taught them HTML, CSS, and JavaScript. So what's next? It's Weekend! Lucus and Dustin will be on their laptops. Are they watching series or playing games? Lucus says, No we are building a new game.
 
@@ -53,3 +53,7 @@ Check whether there is a winner by adding your logic to `checkWin()` method. If 
 ## Trial 4: UNITY IS STRENGTH !
 
 Hurray we're just one step away from the completion ! Add the logic of `totalScore()` method, such that it should _return total strength_ of the team. Where team type is passed as parameter.
+
+## Expected Output
+
+![Superwars](doc/superwar-css.png)
