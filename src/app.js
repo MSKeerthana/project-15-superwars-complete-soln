@@ -2,23 +2,23 @@ const PLAYERS = [
     "Spiderman",
     "Captain America",
     "Wonderwoman",
-    // "Popcorn",
-    // "Gemwoman",
-    // "Bolt",
-    // "Antwoman",
-    // "Mask",
-    // "Tiger",
-    // "Captain",
-    // "Catwoman",
-    // "Fish",
-    // "Hulk",
-    // "Ninja",
-    // "Black Cat",
-    // "Volverine",
-    // "Thor",
-    // "Slayer",
-    // "Vader",
-    // "Slingo"
+    "Popcorn",
+    "Gemwoman",
+    "Bolt",
+    "Antwoman",
+    "Mask",
+    "Tiger",
+    "Captain",
+    "Catwoman",
+    "Fish",
+    "Hulk",
+    "Ninja",
+    "Black Cat",
+    "Volverine",
+    "Thor",
+    "Slayer",
+    "Vader",
+    "Slingo"
 ];
 
 // Player Class
@@ -26,7 +26,7 @@ class Player {
     constructor(id, name, type) {
         this.id = id;
         this.name = name;
-        this.image = "../images/super-" + (id + 1) + ".png";
+        this.image = "images/super-" + (id + 1) + ".png";
         this.strength = this.getRandomStrength();
         this.type = type;
         this.selected = false;
