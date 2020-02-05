@@ -51,27 +51,13 @@
     "placementConstraints": [],
     "memory": "400",
     "taskRoleArn": null,
-    "compatibilities": [
-      "EC2"
-    ],
-    "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:758076197945:task-definition/prograd-lab:2",
     "family": "prograd-lab",
-    "requiresAttributes": [
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "com.amazonaws.ecs.capability.docker-remote-api.1.21"
-      }
-    ],
     "pidMode": null,
     "requiresCompatibilities": [
       "EC2"
     ],
     "networkMode": "bridge",
     "cpu": "1024",
-    "revision": 2,
-    "status": "ACTIVE",
     "inferenceAccelerators": null,
     "proxyConfiguration": null,
     "volumes": []
